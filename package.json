@@ -1,0 +1,35 @@
+{
+  "name": "waterfall-analysis",
+  "version": "1.0.0",
+  "description": "coding-challenge-ledgy",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register *.spec.ts",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Marion Schleifer <marion.schleifer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "/issues"
+  },
+  "homepage": "#readme",
+  "dependencies": {
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1"
+  }
+}
